@@ -48,4 +48,23 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="Location" parent="TextAppearance.AppCompat">
+    </style>
+
+    <style name="Location.Unassigned">
+        <item name="android:colorBackground">#FFFF00</item>
+    </style>
+
+    <style name="Location.Assigned">
+        <item name="android:colorBackground">#00FFFF</item>
+    </style>
+
+    <style name="Location.Connected">
+        <item name="android:colorBackground">#00FF00</item>
+    </style>
+
+    <style name="Location.Error">
+        <item name="android:colorBackground">#FF0000</item>
+    </style>
+
 </resources>

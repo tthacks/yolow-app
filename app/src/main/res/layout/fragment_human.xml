@@ -49,4 +49,118 @@
         app:srcCompat="@drawable/human_outline"
         tools:srcCompat="@drawable/human_outline" />
 
+    <TextView
+        android:id="@+id/loc_chest"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:text="CHEST"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:visibility="visible"
+        style="@style/Location.Unassigned"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <TextView
+        android:id="@+id/loc_stomach"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:text="STOMACH"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/loc_l_arm_hi"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:text="L ARM HIGH"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+        android:id="@+id/loc_l_leg_hi"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:text="L LEG HIGH"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="534dp" />
+
+    <TextView
+        android:id="@+id/loc_r_leg_hi2"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:text="R LEG HIGH"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+    <TextView
+        android:id="@+id/loc_r_leg_lo"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:text="R LEG LOW"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="336dp"
+        tools:layout_editor_absoluteY="660dp" />
+
+    <TextView
+        android:id="@+id/loc_l_leg_lo"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:text="L LEG LOW"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="215dp"
+        tools:layout_editor_absoluteY="660dp" />
+
+    <TextView
+        android:id="@+id/loc_l_arm_lo"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:text="L ARM LOW"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <TextView
+        android:id="@+id/loc_r_arm_hi"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:text="R ARM HIGH"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="370dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+        android:id="@+id/loc_r_arm_lo"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:text="R ARM LOW"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="402dp"
+        tools:layout_editor_absoluteY="355dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

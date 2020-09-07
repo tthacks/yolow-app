@@ -15,10 +15,12 @@ import android.os.IBinder;
 
 import com.mbientlab.metawear.android.BtleService;
 import edu.vt.cs.yolow.ui.main.SectionsPagerAdapter;
+import edu.vt.cs.yolow.ui.main.SharedViewModel;
 
 public class MainContainer extends AppCompatActivity implements ServiceConnection {
 
     private BtleService.LocalBinder serviceBinder;
+    private SharedViewModel sharedViewModel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +35,7 @@ public class MainContainer extends AppCompatActivity implements ServiceConnectio
         ///< Bind the service when the activity is created
         getApplicationContext().bindService(new Intent(this, BtleService.class),
                 this, Context.BIND_AUTO_CREATE);
+
     }
 
     @Override

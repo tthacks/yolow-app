@@ -19,7 +19,7 @@ import edu.vt.cs.yolow.ui.settings.SettingsFragment;
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2};
+    private static final int[] TAB_TITLES = new int[]{R.string.title_human, R.string.title_settings};
     private final Context mContext;
 
     public SectionsPagerAdapter(Context context, FragmentManager fm) {
